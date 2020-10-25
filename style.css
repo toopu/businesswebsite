@@ -8,7 +8,7 @@ body{
 }
 
 .half-width{
-    border: 10px solid ;
+   
     width: 40%;
     float: left;
     margin: 2%;
@@ -27,7 +27,7 @@ body{
     
 }
 .top{
-    border: 10px solid;
+    
     background-image: url("images/header.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@ body{
 .button{
    
     text-decoration: none;
-    background-image: linear-gradient(blue,orange);
+    background-image: linear-gradient(hotpink,purple);
     padding: 10px 20px;
     border-radius: 10px;
     color: white;
@@ -45,7 +45,7 @@ body{
 
 } 
 .low{
-    border: 10px solid;
+  
     background-image: url("images/bio.png");
     background-repeat: no-repeat;
     height: 100vh;
@@ -57,13 +57,56 @@ body{
 .work{
     border: 10px solid;
     width: 28%;
+    height: 200px;
     float: left;
     margin: 1%;
     padding: 1%;
-   
-
 }
-.workimg{
-    
 
+.working{
+    border: 10px solid red ;
+    width: 100hv;
+
+    padding-top:500px;
+    padding-left: 180px;
+   
+}
+.imgs img{
+    border: 10px solid;
+    float: left;
+    width: 26%;
+    height: 100%;
+    padding: 30px 20px;
+}
+.founder{
+   color: gray;
+}
+.last{
+    width: 600px;
+    /* border: 10px solid; */
+    padding-left: 450px;
+}
+.mail{
+    width: 400px;
+    background-color: hotpink;
+    border-radius: 7px;
+}
+.email{
+    padding-left: 550px;
+}
+.working{
+    background-image: url("images/latest-work-bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 105vh;
+    padding: 2%;
+}
+
+.end{
+      
+    background-image: url("images/header.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 105vh;
+    padding: 2%;
 }
